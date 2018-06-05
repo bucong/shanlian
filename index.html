@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>善链</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <script src="js/mian.js"></script>
+</head>
+<body>
+    <section class="head">
+        <header class="scroll-down">
+            <div class="flex head-box">
+                <img src="images/logo1@2x.png" alt="">
+                <ul class="flex">
+                    <li class="active"><a href="">关于我们</a></li>
+                    <li><a href="">善链浏览器</a></li>
+                    <li><a href="">解决方案</a></li>
+                    <li><a href="">团队</a></li>
+                    <li><a href="">合作伙伴</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="contain flex banner">
+            <div class="content">
+                <h1>善链区块链</h1>
+                <h5>区块链公益的服务者</h5>
+                <p>上海善链信息科技有限公司是一家创新性的区块链技术公司，由区块链行业内的创业者、投资者、行业研究和开发专家创始。 团队立足于区块链技术以社会治理为核心，集合对区块链和公益行业的深刻理解、汇集国内顶尖的开发能力，正在向多家企业和政府单位提供区块链解决方案，研发包括善款溯源、爱心资产管理、安全、物联网和云计算等区块链技术。</p>
+            </div>
+            <div style="width:617px;height:454px;" id="bodymovin1"></div>
+            <div class="down">
+                <a href=""><img src="images/down@2x.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    var animData = {
+        container: document.getElementById('bodymovin1'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'lib/data/data1.json'
+    };
+    var anim = bodymovin.loadAnimation(animData);
+</script>
+</html>
